@@ -130,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ),
                         height: 241,
-                        width: 77,
+                        width: 80.9,
                       ),
                       Container(
                         decoration: BoxDecoration(
@@ -141,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ),
                         height: 241,
-                        width: 77,
+                        width: 80.9,
                       ),
                       Container(
                         decoration: BoxDecoration(
@@ -152,7 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ),
                         height: 241,
-                        width: 77,
+                        width: 80.9,
                       ),
                       Container(
                         decoration: BoxDecoration(
@@ -163,7 +163,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ),
                         height: 241,
-                        width: 77.3,
+                        width: 80.9,
                       ),
                       Container(
                         decoration: BoxDecoration(
@@ -174,7 +174,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ),
                         height: 241,
-                        width: 77.3,
+                        width: 80.8,
                       ),
                     ],
                   ),
@@ -221,8 +221,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: EdgeInsets.only(
                           top: 45,
                           bottom: 45,
-                          left: 37.3,
-                          right: 37.3,
+                          left: 47.3,
+                          right: 46,
                         ),
                         child: Text(
                           "Mbappe Menikah",
@@ -273,8 +273,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: EdgeInsets.only(
                           top: 45,
                           bottom: 45,
-                          left: 15.3,
-                          right: 15.3,
+                          left: 25.3,
+                          right: 24,
                         ),
                         child: Text(
                           "Haaland to EVOS Esport",
@@ -327,8 +327,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: EdgeInsets.only(
                           top: 45,
                           bottom: 45,
-                          left: 58.3,
-                          right: 58.3,
+                          left: 68.3,
+                          right: 67,
                         ),
                         child: Text(
                           "Messi Jiko",
