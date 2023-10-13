@@ -103,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Container(
                     alignment: Alignment.center,
-                    child: const Text("PERTANDINGAN HARI INI",
+                    child: const Text("Pertandingan Hari Ini",
                         style: TextStyle(
                             fontSize: 14, fontWeight: FontWeight.bold)),
                   ),
