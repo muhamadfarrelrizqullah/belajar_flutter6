@@ -90,20 +90,20 @@ class _MyHomePageState extends State<MyHomePage> {
         children: <Widget>[
           // container 1
           Container(
-              padding: EdgeInsets.all(20),
+              padding: const EdgeInsets.all(20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    margin: EdgeInsets.only(right: 35),
+                    margin: const EdgeInsets.only(right: 35),
                     alignment: Alignment.center,
-                    child: Text("BERITA TERBARU",
+                    child: const Text("BERITA TERBARU",
                         style: TextStyle(
                             fontSize: 14, fontWeight: FontWeight.bold)),
                   ),
                   Container(
                     alignment: Alignment.center,
-                    child: Text("PERTANDINGAN HARI INI",
+                    child: const Text("PERTANDINGAN HARI INI",
                         style: TextStyle(
                             fontSize: 14, fontWeight: FontWeight.bold)),
                   ),
@@ -122,8 +122,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     // mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        decoration: BoxDecoration(
-                          image: const DecorationImage(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
                             image: NetworkImage(
                                 'https://images6.alphacoders.com/126/thumbbig-1266567.webp'),
                             fit: BoxFit.cover,
@@ -133,8 +133,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 80.9,
                       ),
                       Container(
-                        decoration: BoxDecoration(
-                          image: const DecorationImage(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
                             image: NetworkImage(
                                 'https://images2.alphacoders.com/126/thumbbig-1266579.webp'),
                             fit: BoxFit.cover,
@@ -144,8 +144,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 80.9,
                       ),
                       Container(
-                        decoration: BoxDecoration(
-                          image: const DecorationImage(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
                             image: NetworkImage(
                                 'https://images4.alphacoders.com/126/thumbbig-1266565.webp'),
                             fit: BoxFit.cover,
@@ -155,8 +155,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 80.9,
                       ),
                       Container(
-                        decoration: BoxDecoration(
-                          image: const DecorationImage(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
                             image: NetworkImage(
                                 'https://images8.alphacoders.com/929/thumbbig-929931.webp'),
                             fit: BoxFit.cover,
@@ -166,8 +166,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 80.9,
                       ),
                       Container(
-                        decoration: BoxDecoration(
-                          image: const DecorationImage(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
                             image: NetworkImage(
                                 'https://images6.alphacoders.com/117/thumbbig-1175724.webp'),
                             fit: BoxFit.cover,
@@ -182,8 +182,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 Container(
                   color: Colors.red,
                   alignment: Alignment.center,
-                  padding: EdgeInsets.all(5),
-                  child: Text(
+                  padding: const EdgeInsets.all(5),
+                  child: const Text(
                     "5 Pesepak bola yang selalu salah",
                     style: TextStyle(
                         color: Colors.white, fontWeight: FontWeight.w500),
@@ -197,7 +197,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Container(
             decoration: BoxDecoration(
                 border: Border.all(color: Colors.red, width: 1.5)),
-            margin: EdgeInsets.only(top: 10),
+            margin: const EdgeInsets.only(top: 10),
             child: Column(
               children: [
                 Container(
@@ -207,8 +207,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     // mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        decoration: BoxDecoration(
-                          image: const DecorationImage(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
                               image: NetworkImage(
                                   'https://e0.pxfuel.com/wallpapers/558/757/desktop-wallpaper-kylian-mbappe-soccer-paris-psg-lottin-kylianmbappe-mbappe-football-sport-french.jpg'),
                               fit: BoxFit.fitWidth),
@@ -218,13 +218,13 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       Container(
                         color: Colors.red,
-                        padding: EdgeInsets.only(
+                        padding: const EdgeInsets.only(
                           top: 45,
                           bottom: 45,
                           left: 47.3,
                           right: 46,
                         ),
-                        child: Text(
+                        child: const Text(
                           "Mbappe Menikah",
                           overflow: TextOverflow.ellipsis,
                           maxLines: 2,
@@ -236,8 +236,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 Container(
                   alignment: Alignment.centerLeft,
-                  padding: EdgeInsets.all(5),
-                  child: Text(
+                  padding: const EdgeInsets.all(5),
+                  child: const Text(
                     "Perancis, 9 Oktober 2023",
                     style: TextStyle(
                         color: Colors.black, fontWeight: FontWeight.w500),
@@ -249,7 +249,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Container(
             decoration: BoxDecoration(
                 border: Border.all(color: Colors.red, width: 1.5)),
-            margin: EdgeInsets.only(top: 10),
+            margin: const EdgeInsets.only(top: 10),
             child: Column(
               children: [
                 Container(
@@ -259,8 +259,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     // mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        decoration: BoxDecoration(
-                          image: const DecorationImage(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
                               image: NetworkImage(
                                   'https://e0.pxfuel.com/wallpapers/276/243/desktop-wallpaper-erling-haaland-mancity-soccer-haland-erlinghaaland-erlinghaland-norway-football-sport.jpg'),
                               fit: BoxFit.fitWidth),
@@ -270,13 +270,13 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       Container(
                         color: Colors.red,
-                        padding: EdgeInsets.only(
+                        padding: const EdgeInsets.only(
                           top: 45,
                           bottom: 45,
                           left: 25.3,
                           right: 24,
                         ),
-                        child: Text(
+                        child: const Text(
                           "Haaland to EVOS Esport",
                           softWrap: false,
                           maxLines: 2,
@@ -290,8 +290,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 Container(
                   alignment: Alignment.centerLeft,
-                  padding: EdgeInsets.all(5),
-                  child: Text(
+                  padding: const EdgeInsets.all(5),
+                  child: const Text(
                     "Norwegia, 9 Oktober 2023",
                     style: TextStyle(
                         color: Colors.black, fontWeight: FontWeight.w500),
@@ -303,7 +303,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Container(
             decoration: BoxDecoration(
                 border: Border.all(color: Colors.red, width: 1.5)),
-            margin: EdgeInsets.only(top: 10),
+            margin: const EdgeInsets.only(top: 10),
             child: Column(
               children: [
                 Container(
@@ -313,8 +313,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     // mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        decoration: BoxDecoration(
-                          image: const DecorationImage(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
                               image: NetworkImage(
                                   'https://e0.pxfuel.com/wallpapers/405/53/desktop-wallpaper-lionel-messi-psg-joy-blue-neon-lights-paris-saint-germain-argentinian-footballers-leo-messi-football-soccer-messi-psg-ligue-1-football-stars-lionel-messi-lionel-messi-paris-saint-germain.jpg'),
                               fit: BoxFit.fitWidth),
@@ -324,13 +324,13 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       Container(
                         color: Colors.red,
-                        padding: EdgeInsets.only(
+                        padding: const EdgeInsets.only(
                           top: 45,
                           bottom: 45,
                           left: 68.3,
                           right: 67,
                         ),
-                        child: Text(
+                        child: const Text(
                           "Messi Jiko",
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(color: Colors.white),
@@ -341,8 +341,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 Container(
                   alignment: Alignment.centerLeft,
-                  padding: EdgeInsets.all(5),
-                  child: Text(
+                  padding: const EdgeInsets.all(5),
+                  child: const Text(
                     "Argentina, 9 Oktober 2023",
                     style: TextStyle(
                         color: Colors.black, fontWeight: FontWeight.w500),
